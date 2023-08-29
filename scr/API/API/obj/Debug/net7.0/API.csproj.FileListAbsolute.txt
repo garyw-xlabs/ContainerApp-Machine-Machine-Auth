@@ -1,0 +1,153 @@
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\appsettings.Development.json
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\appsettings.json
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\API.exe
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\API.deps.json
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\API.runtimeconfig.json
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\API.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\API.pdb
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\playground2\secirtiy\scr\API\API\obj\Debug\net7.0\API.csproj.AssemblyReference.cache
+C:\playground2\secirtiy\scr\API\API\obj\Debug\net7.0\API.GeneratedMSBuildEditorConfig.editorconfig
+C:\playground2\secirtiy\scr\API\API\obj\Debug\net7.0\API.AssemblyInfoInputs.cache
+C:\playground2\secirtiy\scr\API\API\obj\Debug\net7.0\API.AssemblyInfo.cs
+C:\playground2\secirtiy\scr\API\API\obj\Debug\net7.0\API.csproj.CoreCompileInputs.cache
+C:\playground2\secirtiy\scr\API\API\obj\Debug\net7.0\API.MvcApplicationPartsAssemblyInfo.cs
+C:\playground2\secirtiy\scr\API\API\obj\Debug\net7.0\API.MvcApplicationPartsAssemblyInfo.cache
+C:\playground2\secirtiy\scr\API\API\obj\Debug\net7.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\playground2\secirtiy\scr\API\API\obj\Debug\net7.0\staticwebassets\msbuild.build.API.props
+C:\playground2\secirtiy\scr\API\API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.API.props
+C:\playground2\secirtiy\scr\API\API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.API.props
+C:\playground2\secirtiy\scr\API\API\obj\Debug\net7.0\staticwebassets.pack.json
+C:\playground2\secirtiy\scr\API\API\obj\Debug\net7.0\staticwebassets.build.json
+C:\playground2\secirtiy\scr\API\API\obj\Debug\net7.0\staticwebassets.development.json
+C:\playground2\secirtiy\scr\API\API\obj\Debug\net7.0\scopedcss\bundle\API.styles.css
+C:\playground2\secirtiy\scr\API\API\obj\Debug\net7.0\API.csproj.CopyComplete
+C:\playground2\secirtiy\scr\API\API\obj\Debug\net7.0\API.dll
+C:\playground2\secirtiy\scr\API\API\obj\Debug\net7.0\refint\API.dll
+C:\playground2\secirtiy\scr\API\API\obj\Debug\net7.0\API.pdb
+C:\playground2\secirtiy\scr\API\API\obj\Debug\net7.0\API.genruntimeconfig.cache
+C:\playground2\secirtiy\scr\API\API\obj\Debug\net7.0\ref\API.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\Azure.Core.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\Azure.Extensions.AspNetCore.Configuration.Secrets.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\Azure.Identity.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\Azure.Security.KeyVault.Secrets.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\Microsoft.ApplicationInsights.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\Microsoft.ApplicationInsights.AspNetCore.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\Microsoft.AI.DependencyCollector.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\Microsoft.AI.EventCounterCollector.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\Microsoft.AI.PerfCounterCollector.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\Microsoft.AI.WindowsServer.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\Microsoft.AI.ServerTelemetryChannel.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\Microsoft.Extensions.Logging.ApplicationInsights.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\System.Diagnostics.PerformanceCounter.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\System.Memory.Data.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\playground2\secirtiy\scr\API\API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\appsettings.Development.json
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\appsettings.json
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\API.exe
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\API.deps.json
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\API.runtimeconfig.json
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\API.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\API.pdb
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Azure.Core.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Azure.Extensions.AspNetCore.Configuration.Secrets.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Azure.Identity.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Azure.Security.KeyVault.Certificates.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Azure.Security.KeyVault.Secrets.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.ApplicationInsights.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.ApplicationInsights.AspNetCore.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.AI.DependencyCollector.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.AI.EventCounterCollector.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.AI.PerfCounterCollector.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.AI.WindowsServer.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.AI.ServerTelemetryChannel.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.AspNetCore.DataProtection.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.Extensions.Logging.ApplicationInsights.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.Identity.Abstractions.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.Identity.Web.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.Identity.Web.Certificate.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.Identity.Web.Certificateless.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.Identity.Web.Diagnostics.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.Identity.Web.TokenAcquisition.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.Identity.Web.TokenCache.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.IdentityModel.LoggingExtensions.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.IdentityModel.Validators.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\System.Diagnostics.PerformanceCounter.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\System.Memory.Data.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\System.Security.Cryptography.Xml.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\obj\Debug\net7.0\API.csproj.AssemblyReference.cache
+C:\playground2\secirtiy - aad - using side car\scr\API\API\obj\Debug\net7.0\API.GeneratedMSBuildEditorConfig.editorconfig
+C:\playground2\secirtiy - aad - using side car\scr\API\API\obj\Debug\net7.0\API.AssemblyInfoInputs.cache
+C:\playground2\secirtiy - aad - using side car\scr\API\API\obj\Debug\net7.0\API.AssemblyInfo.cs
+C:\playground2\secirtiy - aad - using side car\scr\API\API\obj\Debug\net7.0\API.csproj.CoreCompileInputs.cache
+C:\playground2\secirtiy - aad - using side car\scr\API\API\obj\Debug\net7.0\API.MvcApplicationPartsAssemblyInfo.cs
+C:\playground2\secirtiy - aad - using side car\scr\API\API\obj\Debug\net7.0\API.MvcApplicationPartsAssemblyInfo.cache
+C:\playground2\secirtiy - aad - using side car\scr\API\API\obj\Debug\net7.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\playground2\secirtiy - aad - using side car\scr\API\API\obj\Debug\net7.0\staticwebassets\msbuild.build.API.props
+C:\playground2\secirtiy - aad - using side car\scr\API\API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.API.props
+C:\playground2\secirtiy - aad - using side car\scr\API\API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.API.props
+C:\playground2\secirtiy - aad - using side car\scr\API\API\obj\Debug\net7.0\staticwebassets.pack.json
+C:\playground2\secirtiy - aad - using side car\scr\API\API\obj\Debug\net7.0\staticwebassets.build.json
+C:\playground2\secirtiy - aad - using side car\scr\API\API\obj\Debug\net7.0\staticwebassets.development.json
+C:\playground2\secirtiy - aad - using side car\scr\API\API\obj\Debug\net7.0\scopedcss\bundle\API.styles.css
+C:\playground2\secirtiy - aad - using side car\scr\API\API\obj\Debug\net7.0\API.csproj.CopyComplete
+C:\playground2\secirtiy - aad - using side car\scr\API\API\obj\Debug\net7.0\API.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\obj\Debug\net7.0\refint\API.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\obj\Debug\net7.0\API.pdb
+C:\playground2\secirtiy - aad - using side car\scr\API\API\obj\Debug\net7.0\API.genruntimeconfig.cache
+C:\playground2\secirtiy - aad - using side car\scr\API\API\obj\Debug\net7.0\ref\API.dll
+C:\playground2\secirtiy - aad - using side car\scr\API\API\bin\Debug\net7.0\Newtonsoft.Json.dll

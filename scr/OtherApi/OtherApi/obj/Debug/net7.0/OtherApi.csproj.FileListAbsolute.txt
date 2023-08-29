@@ -1,0 +1,183 @@
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\bin\Debug\net7.0\appsettings.Development.json
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\bin\Debug\net7.0\appsettings.json
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\bin\Debug\net7.0\OtherApi.exe
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\bin\Debug\net7.0\OtherApi.deps.json
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\bin\Debug\net7.0\OtherApi.runtimeconfig.json
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\bin\Debug\net7.0\OtherApi.dll
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\bin\Debug\net7.0\OtherApi.pdb
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.csproj.AssemblyReference.cache
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.AssemblyInfoInputs.cache
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.AssemblyInfo.cs
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.csproj.CoreCompileInputs.cache
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.MvcApplicationPartsAssemblyInfo.cs
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.MvcApplicationPartsAssemblyInfo.cache
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\obj\Debug\net7.0\staticwebassets\msbuild.OtherApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\obj\Debug\net7.0\staticwebassets\msbuild.build.OtherApi.props
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.OtherApi.props
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.OtherApi.props
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\obj\Debug\net7.0\scopedcss\bundle\OtherApi.styles.css
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.csproj.CopyComplete
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.dll
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\obj\Debug\net7.0\refint\OtherApi.dll
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.pdb
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.genruntimeconfig.cache
+C:\playground2\secirtiy\scr\OtherApi\OtherApi\obj\Debug\net7.0\ref\OtherApi.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\appsettings.Development.json
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\appsettings.json
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\OtherApi.exe
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\OtherApi.deps.json
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\OtherApi.runtimeconfig.json
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\OtherApi.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\OtherApi.pdb
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Azure.Core.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Azure.Identity.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Azure.Security.KeyVault.Certificates.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Azure.Security.KeyVault.Secrets.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.AspNetCore.DataProtection.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Identity.Abstractions.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Identity.Web.Certificate.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Identity.Web.Certificateless.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Identity.Web.Diagnostics.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Identity.Web.DownstreamApi.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Identity.Web.TokenAcquisition.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Identity.Web.TokenCache.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.IdentityModel.LoggingExtensions.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\System.Security.Cryptography.Xml.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.csproj.AssemblyReference.cache
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.AssemblyInfoInputs.cache
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.AssemblyInfo.cs
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.csproj.CoreCompileInputs.cache
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.MvcApplicationPartsAssemblyInfo.cs
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.MvcApplicationPartsAssemblyInfo.cache
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\obj\Debug\net7.0\staticwebassets\msbuild.OtherApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\obj\Debug\net7.0\staticwebassets\msbuild.build.OtherApi.props
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.OtherApi.props
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.OtherApi.props
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\obj\Debug\net7.0\scopedcss\bundle\OtherApi.styles.css
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.csproj.CopyComplete
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\obj\Debug\net7.0\refint\OtherApi.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.pdb
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.genruntimeconfig.cache
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\obj\Debug\net7.0\ref\OtherApi.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Identity.Web.dll
+C:\playground2\secirtiy - aad - using side car\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.IdentityModel.Validators.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\appsettings.Development.json
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\appsettings.json
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\OtherApi.exe
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\OtherApi.deps.json
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\OtherApi.runtimeconfig.json
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\OtherApi.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\OtherApi.pdb
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Azure.Core.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Azure.Identity.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Azure.Security.KeyVault.Certificates.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Azure.Security.KeyVault.Secrets.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.AspNetCore.DataProtection.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Identity.Abstractions.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Identity.Web.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Identity.Web.Certificate.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Identity.Web.Certificateless.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Identity.Web.Diagnostics.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Identity.Web.DownstreamApi.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Identity.Web.TokenAcquisition.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Identity.Web.TokenCache.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.IdentityModel.LoggingExtensions.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.IdentityModel.Validators.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\System.Security.Cryptography.Xml.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.csproj.AssemblyReference.cache
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.AssemblyInfoInputs.cache
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.AssemblyInfo.cs
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.csproj.CoreCompileInputs.cache
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.MvcApplicationPartsAssemblyInfo.cs
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.MvcApplicationPartsAssemblyInfo.cache
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\obj\Debug\net7.0\staticwebassets\msbuild.OtherApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\obj\Debug\net7.0\staticwebassets\msbuild.build.OtherApi.props
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.OtherApi.props
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.OtherApi.props
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\obj\Debug\net7.0\scopedcss\bundle\OtherApi.styles.css
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.csproj.CopyComplete
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\obj\Debug\net7.0\refint\OtherApi.dll
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.pdb
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\obj\Debug\net7.0\OtherApi.genruntimeconfig.cache
+C:\containerappexperiments\Terraform\Authentication\scr\OtherApi\OtherApi\obj\Debug\net7.0\ref\OtherApi.dll

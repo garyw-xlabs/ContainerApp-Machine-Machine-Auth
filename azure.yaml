@@ -1,0 +1,24 @@
+name: ContainerappsAuthentication
+metadata:
+  template: containerapps-authentication@0.0.1-beta
+infra:
+  provider: terraform
+services:
+  api-tf:
+    project: ./scr/Api/Api
+    docker:
+      path: ./Dockerfile
+      context: ../
+      web:
+      project: scr/Api/Api/
+    language: dotnet
+    host: containerapp
+  otherapi-tf:
+    project: ./scr/OtherApi/OtherApi    
+    docker:
+      path: ./Dockerfile
+      context: ../
+      web:
+      project: scr/OtherApi/OtherApi/
+    language: dotnet
+    host: containerapp
