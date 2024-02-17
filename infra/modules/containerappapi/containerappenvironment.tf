@@ -47,7 +47,7 @@ resource "azurerm_container_app" "app" {
       }
       env {
         name  = "REVISION_COMMIT_ID"
-        value = local.current_commit_id
+        value = var.latest_commit_id
       }
     }
     min_replicas = 1
