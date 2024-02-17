@@ -9,9 +9,7 @@ on:
 
 # GitHub Actions workflow to deploy to Azure using azd
 # To configure required secrets for connecting to Azure, simply run `azd pipeline config --auth-type client-credentials`
-permissions:
-  id-token: write
-  contents: write-all
+permissions: write-all
 jobs:
   build:
     runs-on: ubuntu-latest
