@@ -57,10 +57,13 @@ resource "azurerm_container_app" "app" {
     external_enabled = true
     target_port      = 80
 
-    traffic_weight {
-      revision_suffix = var.blue_commit_id
-      label           = "blue"
-      percentage      = var.production_label == "blue" ? 100 : 0
+    dynamic "traffic_weight" {
+      for_each = var.green_commit_id == var.blue_commit_id ? [1] : []
+      content {
+        latest_revision = true
+        label           = "blue"
+        percentage      = var.production_label == "blue" ? 100 : 0
+      }
     }
 
 
@@ -70,6 +73,15 @@ resource "azurerm_container_app" "app" {
         revision_suffix = var.green_commit_id
         label           = "green"
         percentage      = var.production_label == "green" ? 100 : 0
+      }
+    }
+
+    dynamic "traffic_weight" {
+      for_each = var.green_commit_id != var.blue_commit_id ? [1] : []
+      content {
+        revision_suffix = var.blue_commit_id
+        label           = "blue"
+        percentage      = var.production_label == "blue" ? 100 : 0
       }
     }
   }
