@@ -45,38 +45,38 @@ azd env set cur_prod_label $cur_prod_label
 
 # # Handle the case when the workflow is re-run for the same commit id that is already in production
 # # We do not want to deploy the same commit id again into another label
-#  if [ $cur_prod_label = 'blue' ] && [ $cur_blue_commit_id = $commit_id ];
-#  then
-#      echo "Blue is a production label and the current commit id is the same as the blue commit id"
-#      echo "cur_prod_label=blue" >> $GITHUB_OUTPUT
-#      azd env set cur_prod_label blue
-#      echo "new_prod_label=blue" >> $GITHUB_OUTPUT
-#      azd env set new_prod_label blue
-#      echo "blue_commit_id=$cur_blue_commit_id" >> $GITHUB_OUTPUT
-#      azd env set blue_commit_id $cur_blue_commit_id
-#      echo "green_commit_id=$cur_green_commit_id" >> $GITHUB_OUTPUT
-#      azd env set green_commit_id $cur_green_commit_id
-#      echo "revision_to_deactivate=NONE" >> $GITHUB_OUTPUT
-#      azd env set revision_to_deactivate NONE
-#      exit 0
-#  fi
+ if [ $cur_prod_label = 'blue' ] && [ $cur_blue_commit_id = $commit_id ];
+ then
+     echo "Blue is a production label and the current commit id is the same as the blue commit id"
+     echo "cur_prod_label=blue" >> $GITHUB_OUTPUT
+     azd env set cur_prod_label blue
+     echo "new_prod_label=blue" >> $GITHUB_OUTPUT
+     azd env set new_prod_label blue
+     echo "blue_commit_id=$cur_blue_commit_id" >> $GITHUB_OUTPUT
+     azd env set blue_commit_id $cur_blue_commit_id
+     echo "green_commit_id=$cur_green_commit_id" >> $GITHUB_OUTPUT
+     azd env set green_commit_id $cur_green_commit_id
+     echo "revision_to_deactivate=NONE" >> $GITHUB_OUTPUT
+     azd env set revision_to_deactivate NONE
+     exit 0
+ fi
 
-#  if [ $cur_prod_label = 'green' ] && [ $cur_green_commit_id = $commit_id ];
-#  then
-#      echo "Green is a production label and the current commit id is the same as the green commit id"
-#      echo "cur_prod_label=green" >> $GITHUB_OUTPUT
-#      echo "new_prod_label=green" >> $GITHUB_OUTPUT
-#      echo "blue_commit_id=$cur_blue_commit_id" >> $GITHUB_OUTPUT
-#      echo "green_commit_id=$cur_green_commit_id" >> $GITHUB_OUTPUT
-#      echo "revision_to_deactivate=NONE" >> $GITHUB_OUTPUT
+ if [ $cur_prod_label = 'green' ] && [ $cur_green_commit_id = $commit_id ];
+ then
+     echo "Green is a production label and the current commit id is the same as the green commit id"
+     echo "cur_prod_label=green" >> $GITHUB_OUTPUT
+     echo "new_prod_label=green" >> $GITHUB_OUTPUT
+     echo "blue_commit_id=$cur_blue_commit_id" >> $GITHUB_OUTPUT
+     echo "green_commit_id=$cur_green_commit_id" >> $GITHUB_OUTPUT
+     echo "revision_to_deactivate=NONE" >> $GITHUB_OUTPUT
      
-#      azd env set cur_prod_label green
-#      azd env set new_prod_label green
-#      azd env set blue_commit_id $cur_blue_commit_id
-#      azd env set green_commit_id $cur_green_commit_id
-#      azd env set revision_to_deactivate NONE
-#      exit 0
-#  fi
+     azd env set cur_prod_label green
+     azd env set new_prod_label green
+     azd env set blue_commit_id $cur_blue_commit_id
+     azd env set green_commit_id $cur_green_commit_id
+     azd env set revision_to_deactivate NONE
+     exit 0
+ fi
 
 # # set blue commit id and green commit id based on the current production label
  blue_commit_id=$([[ $cur_prod_label = 'blue' ]] && echo $cur_blue_commit_id || echo $commit_id)

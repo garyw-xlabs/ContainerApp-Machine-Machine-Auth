@@ -37,7 +37,7 @@ jobs:
         run: azd config set alpha.terraform on
 
       - name: Provision Infrastructure
-        run: azd provision --no-prompt  --debug
+        run: azd provision --no-prompt --debug
         env:
           AZURE_ENV_NAME: ${{ vars.AZURE_ENV_NAME }}
           AZURE_LOCATION: ${{ vars.AZURE_LOCATION }}
