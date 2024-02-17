@@ -32,8 +32,14 @@ echo $tags
 cur_prod_label=`echo ${tags} | jq -r '.productionLabel'`
 
  echo "label: $cur_prod_label"
+if $cur_prod_label =="";
+then
+    $cur_prod_label = "blue"
+fi
+
 echo "cur_prod_label=$cur_prod_label" >> $GITHUB_OUTPUT
 azd env set cur_prod_label $cur_prod_label
+
 
 # # get the current blue commit id
  cur_blue_commit_id=$(echo $tags | jq -r '.blueCommitId')
