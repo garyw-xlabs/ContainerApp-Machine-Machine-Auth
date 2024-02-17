@@ -63,6 +63,7 @@ resource "azurerm_container_app" "app" {
       percentage      = var.production_label == "blue" ? 100 : 0
     }
 
+
     dynamic "traffic_weight" {
       for_each = var.green_commit_id != var.blue_commit_id ? [1] : []
       content {
