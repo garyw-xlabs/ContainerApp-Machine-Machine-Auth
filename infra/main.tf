@@ -69,5 +69,5 @@ module "container_app_api" {
   latest_commit_id     = var.latest_commit_id
   blue_commit_id       = var.blue_commit_id
   green_commit_id      = var.green_commit_id
-  production_label     = var.production_label
+  production_label     = local.prod_label
 }
