@@ -37,7 +37,7 @@ jobs:
         run: azd config set alpha.terraform on
 
       - name: Test Hook
-        run: azd hooks run preprovision --debug --no-prompt
+        run: azd hooks run preprovision --debug
         env:
           AZURE_ENV_NAME: ${{ vars.AZURE_ENV_NAME }}
           AZURE_LOCATION: ${{ vars.AZURE_LOCATION }}
