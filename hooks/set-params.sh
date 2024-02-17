@@ -38,6 +38,7 @@ then
 fi
 
 echo "cur_prod_label=$cur_prod_label" >> $GITHUB_OUTPUT
+
 azd env set cur_prod_label $cur_prod_label
 echo "cur_prod_label=$cur_prod_label" 
 
