@@ -3,16 +3,16 @@ metadata:
   template: containerapps-authentication@0.0.1-beta
 infra:
   provider: terraform
-services:
-  keyvault-tf:
-    project: ./scr/Api/Api
-    docker:
-      path: ./Dockerfile
-      context: ../
-      web:
-      project: scr/Api/Api/
-    language: dotnet
-    host: containerapp
+# services:
+#   keyvault-tf:
+#     project: ./scr/Api/Api
+#     docker:
+#       path: ./Dockerfile
+#       context: ../
+#       web:
+#       project: scr/Api/Api/
+#     language: dotnet
+#     host: containerapp
 hooks:
   preprovision: # Pull environment variable inline from local device and set in .env file
     shell: sh
