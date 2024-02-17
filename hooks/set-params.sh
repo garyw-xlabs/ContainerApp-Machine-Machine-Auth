@@ -26,7 +26,7 @@ echo "commit_id=$commit_id" >> $GITHUB_OUTPUT
 echo "RESOURCE_GROUP: $RESOURCE_GROUP"
 echo "APP_NAME: $APP_NAME"
 tags=$(az containerapp show -g rg-bluegreen2-test -n ca-ndjhmwywztfiy --query tags -o json  | tr -d '\r\n')
-
+echo "here are the tags"
 echo $tags
 # get the current production label
 cur_prod_label=`echo ${tags} | jq -r '.productionLabel'`
