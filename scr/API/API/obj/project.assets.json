@@ -24,6 +24,24 @@
           }
         }
       },
+      "Azure.Data.AppConfiguration/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.20.0",
+          "Microsoft.Bcl.AsyncInterfaces": "1.0.0",
+          "System.Text.Json": "4.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Azure.Data.AppConfiguration.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.Data.AppConfiguration.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Azure.Extensions.AspNetCore.Configuration.Secrets/1.2.1": {
         "type": "package",
         "dependencies": {
@@ -64,6 +82,24 @@
           }
         }
       },
+      "Azure.Messaging.EventGrid/4.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.20.0",
+          "System.Memory.Data": "1.0.2",
+          "System.Text.Json": "4.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Azure.Messaging.EventGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.Messaging.EventGrid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Azure.Security.KeyVault.Certificates/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -83,13 +119,13 @@
           }
         }
       },
-      "Azure.Security.KeyVault.Secrets/4.1.0": {
+      "Azure.Security.KeyVault.Secrets/4.3.0": {
         "type": "package",
         "dependencies": {
-          "Azure.Core": "1.0.2",
-          "System.Memory": "4.5.3",
-          "System.Text.Json": "4.6.0",
-          "System.Threading.Tasks.Extensions": "4.5.2"
+          "Azure.Core": "1.23.0",
+          "System.Memory": "4.5.4",
+          "System.Text.Json": "4.7.2",
+          "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "compile": {
           "lib/netstandard2.0/Azure.Security.KeyVault.Secrets.dll": {
@@ -501,6 +537,25 @@
           }
         }
       },
+      "Microsoft.Azure.AppConfiguration.AspNetCore/6.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.AzureAppConfiguration": "6.1.0"
+        },
+        "compile": {
+          "lib/net7.0/Microsoft.Azure.AppConfiguration.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Azure.AppConfiguration.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -574,10 +629,10 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Configuration/3.1.0": {
+      "Microsoft.Extensions.Configuration/3.1.18": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.0"
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.18"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {
@@ -607,6 +662,28 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.AzureAppConfiguration/6.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Data.AppConfiguration": "1.2.0",
+          "Azure.Messaging.EventGrid": "4.7.0",
+          "Azure.Security.KeyVault.Secrets": "4.3.0",
+          "Microsoft.Extensions.Configuration": "3.1.18",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.18",
+          "Microsoft.Extensions.Logging": "3.1.18",
+          "System.Text.Json": "4.7.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.AzureAppConfiguration.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.AzureAppConfiguration.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Extensions.Configuration.Binder/7.0.0": {
@@ -1876,6 +1953,22 @@
         "lib/netstandard2.0/Azure.Core.xml"
       ]
     },
+    "Azure.Data.AppConfiguration/1.2.0": {
+      "sha512": "KA1dAM9TuDsq0CRFd+3cJTYUAzA2z9N8t9/xKdDbP9URuReq/NDFcKYr7GW2W9xzVGDtCHlD5j5am/+zLLBdSg==",
+      "type": "package",
+      "path": "azure.data.appconfiguration/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.data.appconfiguration.1.2.0.nupkg.sha512",
+        "azure.data.appconfiguration.nuspec",
+        "lib/netstandard2.0/Azure.Data.AppConfiguration.dll",
+        "lib/netstandard2.0/Azure.Data.AppConfiguration.xml",
+        "pkgicon.png"
+      ]
+    },
     "Azure.Extensions.AspNetCore.Configuration.Secrets/1.2.1": {
       "sha512": "0U3573Fzz+DouG3azuYwG3vhz/dNAzv+/rP/fhAlJ7WuE6Pnxt/UTDtf0Hks9MYaeendwBna8JX+JNSzhDLZcQ==",
       "type": "package",
@@ -1908,6 +2001,22 @@
         "lib/netstandard2.0/Azure.Identity.xml"
       ]
     },
+    "Azure.Messaging.EventGrid/4.7.0": {
+      "sha512": "Wm5+RY6hNoIPVLPwmr3T1ijVm5GdLVZBij93c4Brwe9iB3X8nlUYNjlnQVVJqK4QLs85nGwqBGUpB4BfYdGXVQ==",
+      "type": "package",
+      "path": "azure.messaging.eventgrid/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.messaging.eventgrid.4.7.0.nupkg.sha512",
+        "azure.messaging.eventgrid.nuspec",
+        "lib/netstandard2.0/Azure.Messaging.EventGrid.dll",
+        "lib/netstandard2.0/Azure.Messaging.EventGrid.xml",
+        "pkgicon.png"
+      ]
+    },
     "Azure.Security.KeyVault.Certificates/4.1.0": {
       "sha512": "I+irkjO1JBzJWYBLhW835/b7GllxkjMbQwrirhxUJsf6FQnH+eIGin4T/jBLgyuu1zPsn2AxiUFju6Shb/uiNA==",
       "type": "package",
@@ -1924,20 +2033,20 @@
         "pkgicon.png"
       ]
     },
-    "Azure.Security.KeyVault.Secrets/4.1.0": {
-      "sha512": "SK4XTPEaXI5UTdtSkr8TN4ZKnvazNHhybnnkxHgOyRAhV9ObcIjbrNlhS4ZeR8XtI+HidL+v/WIIVfR1+jKB8Q==",
+    "Azure.Security.KeyVault.Secrets/4.3.0": {
+      "sha512": "GRnmQzTXDVABry1rC8PwuVOHSDCUGn4Om1ABTCzWfHdDSOwRydtQ13ucJ1Z0YtdajklNwxEL6lhHGhFCI0diAw==",
       "type": "package",
-      "path": "azure.security.keyvault.secrets/4.1.0",
+      "path": "azure.security.keyvault.secrets/4.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "CHANGELOG.md",
         "README.md",
-        "azure.security.keyvault.secrets.4.1.0.nupkg.sha512",
+        "azure.security.keyvault.secrets.4.3.0.nupkg.sha512",
         "azure.security.keyvault.secrets.nuspec",
+        "azureicon.png",
         "lib/netstandard2.0/Azure.Security.KeyVault.Secrets.dll",
-        "lib/netstandard2.0/Azure.Security.KeyVault.Secrets.xml",
-        "pkgicon.png"
+        "lib/netstandard2.0/Azure.Security.KeyVault.Secrets.xml"
       ]
     },
     "Microsoft.ApplicationInsights/2.21.0": {
@@ -2283,6 +2392,25 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.xml",
         "microsoft.aspnetcore.webutilities.2.1.1.nupkg.sha512",
         "microsoft.aspnetcore.webutilities.nuspec"
+      ]
+    },
+    "Microsoft.Azure.AppConfiguration.AspNetCore/6.1.0": {
+      "sha512": "8BR7X4Ha7NjddmwtBart3sXp9c0pYy30S3uOfBRfOKn7d/7dsKHADpgkvtkiR2KVu0TrPqXDQPjHTYCnSfUsew==",
+      "type": "package",
+      "path": "microsoft.azure.appconfiguration.aspnetcore/6.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Microsoft.Azure.AppConfiguration.AspNetCore.dll",
+        "lib/net6.0/Microsoft.Azure.AppConfiguration.AspNetCore.xml",
+        "lib/net7.0/Microsoft.Azure.AppConfiguration.AspNetCore.dll",
+        "lib/net7.0/Microsoft.Azure.AppConfiguration.AspNetCore.xml",
+        "lib/netcoreapp3.1/Microsoft.Azure.AppConfiguration.AspNetCore.dll",
+        "lib/netcoreapp3.1/Microsoft.Azure.AppConfiguration.AspNetCore.xml",
+        "lib/netstandard2.0/Microsoft.Azure.AppConfiguration.AspNetCore.dll",
+        "lib/netstandard2.0/Microsoft.Azure.AppConfiguration.AspNetCore.xml",
+        "microsoft.azure.appconfiguration.aspnetcore.6.1.0.nupkg.sha512",
+        "microsoft.azure.appconfiguration.aspnetcore.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -2663,20 +2791,20 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Configuration/3.1.0": {
-      "sha512": "Lu41BWNmwhKr6LgyQvcYBOge0pPvmiaK8R5UHXX4//wBhonJyWcT2OK1mqYfEM5G7pTf31fPrpIHOT6sN7EGOA==",
+    "Microsoft.Extensions.Configuration/3.1.18": {
+      "sha512": "G2w2QolMv76ZswL6XKjy8PbAu12uYbtIkGwkkZEhy7irWfqQWFT8PKQ68cEpotg6e2rc15E5/LQDgvCpXeWFtA==",
       "type": "package",
-      "path": "microsoft.extensions.configuration/3.1.0",
+      "path": "microsoft.extensions.configuration/3.1.18",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll",
         "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
-        "microsoft.extensions.configuration.3.1.0.nupkg.sha512",
-        "microsoft.extensions.configuration.nuspec",
-        "packageIcon.png"
+        "microsoft.extensions.configuration.3.1.18.nupkg.sha512",
+        "microsoft.extensions.configuration.nuspec"
       ]
     },
     "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
@@ -2704,6 +2832,19 @@
         "microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
         "microsoft.extensions.configuration.abstractions.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.AzureAppConfiguration/6.1.0": {
+      "sha512": "NiiV3reQPThHUbHCur3LVF2/UZO92XVuMm/zKcZwpuhGw6VWTnERGAP/+B2CVl5zQ3HtJqbFJ25tKQf+a51qiA==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.azureappconfiguration/6.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.AzureAppConfiguration.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.AzureAppConfiguration.xml",
+        "microsoft.extensions.configuration.azureappconfiguration.6.1.0.nupkg.sha512",
+        "microsoft.extensions.configuration.azureappconfiguration.nuspec"
       ]
     },
     "Microsoft.Extensions.Configuration.Binder/7.0.0": {
@@ -4792,6 +4933,8 @@
       "Azure.Identity >= 1.9.0-beta.2",
       "Microsoft.ApplicationInsights.AspNetCore >= 2.21.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.3",
+      "Microsoft.Azure.AppConfiguration.AspNetCore >= 6.1.0",
+      "Microsoft.Extensions.Configuration.AzureAppConfiguration >= 6.1.0",
       "Microsoft.Identity.Web >= 2.13.1",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.17.2",
       "Newtonsoft.Json >= 13.0.3",
@@ -4804,11 +4947,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\containerappexperiments\\Terraform\\Authentication\\scr\\API\\API\\API.csproj",
+      "projectUniqueName": "C:\\containerappexperiments\\Terraform\\BlueGreeen\\scr\\API\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\containerappexperiments\\Terraform\\Authentication\\scr\\API\\API\\API.csproj",
+      "projectPath": "C:\\containerappexperiments\\Terraform\\BlueGreeen\\scr\\API\\API\\API.csproj",
       "packagesPath": "C:\\Users\\GaryWalker\\.nuget\\packages\\",
-      "outputPath": "C:\\containerappexperiments\\Terraform\\Authentication\\scr\\API\\API\\obj\\",
+      "outputPath": "C:\\containerappexperiments\\Terraform\\BlueGreeen\\scr\\API\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\GaryWalker\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4819,7 +4962,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4854,6 +4996,14 @@
             "target": "Package",
             "version": "[7.0.3, )"
           },
+          "Microsoft.Azure.AppConfiguration.AspNetCore": {
+            "target": "Package",
+            "version": "[6.1.0, )"
+          },
+          "Microsoft.Extensions.Configuration.AzureAppConfiguration": {
+            "target": "Package",
+            "version": "[6.1.0, )"
+          },
           "Microsoft.Identity.Web": {
             "target": "Package",
             "version": "[2.13.1, )"
@@ -4882,6 +5032,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.16, 7.0.16]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.16, 7.0.16]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.16, 7.0.16]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.16, 7.0.16]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -4890,8 +5058,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Azure.Identity' 1.9.0-beta.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-5mfx-4wcx-rv27",
+      "libraryId": "Azure.Identity",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

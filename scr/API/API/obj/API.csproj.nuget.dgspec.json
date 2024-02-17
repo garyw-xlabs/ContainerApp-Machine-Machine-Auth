@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\containerappexperiments\\Terraform\\Authentication\\scr\\API\\API\\API.csproj": {}
+    "C:\\containerappexperiments\\Terraform\\BlueGreeen\\scr\\API\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\containerappexperiments\\Terraform\\Authentication\\scr\\API\\API\\API.csproj": {
+    "C:\\containerappexperiments\\Terraform\\BlueGreeen\\scr\\API\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\containerappexperiments\\Terraform\\Authentication\\scr\\API\\API\\API.csproj",
+        "projectUniqueName": "C:\\containerappexperiments\\Terraform\\BlueGreeen\\scr\\API\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\containerappexperiments\\Terraform\\Authentication\\scr\\API\\API\\API.csproj",
+        "projectPath": "C:\\containerappexperiments\\Terraform\\BlueGreeen\\scr\\API\\API\\API.csproj",
         "packagesPath": "C:\\Users\\GaryWalker\\.nuget\\packages\\",
-        "outputPath": "C:\\containerappexperiments\\Terraform\\Authentication\\scr\\API\\API\\obj\\",
+        "outputPath": "C:\\containerappexperiments\\Terraform\\BlueGreeen\\scr\\API\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\GaryWalker\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,6 +56,14 @@
               "target": "Package",
               "version": "[7.0.3, )"
             },
+            "Microsoft.Azure.AppConfiguration.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration.AzureAppConfiguration": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
             "Microsoft.Identity.Web": {
               "target": "Package",
               "version": "[2.13.1, )"
@@ -85,6 +92,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.16, 7.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.16, 7.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.16, 7.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.16, 7.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -93,7 +118,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

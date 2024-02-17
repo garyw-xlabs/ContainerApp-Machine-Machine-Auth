@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "CjEULHrT7AfUDERpV9VlQZYHNldb2OnjvK/rcE96TJHDzF1FMa+Jsyo1h7Zq8UOJZwqHaGUfv79C33zkHznHoQ==",
+  "dgSpecHash": "XMPFHl9EzW37mu56EGjZ+JrOJFVu3LBMPg+VLw7Qlh2pgb4iEZTN+mjQT1UXIJ75Yt+ji7wAn1nw05y6UdiPzg==",
   "success": true,
-  "projectFilePath": "C:\\containerappexperiments\\Terraform\\Authentication\\scr\\API\\API\\API.csproj",
+  "projectFilePath": "C:\\containerappexperiments\\Terraform\\BlueGreeen\\scr\\API\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GaryWalker\\.nuget\\packages\\azure.core\\1.28.0\\azure.core.1.28.0.nupkg.sha512",
+    "C:\\Users\\GaryWalker\\.nuget\\packages\\azure.data.appconfiguration\\1.2.0\\azure.data.appconfiguration.1.2.0.nupkg.sha512",
     "C:\\Users\\GaryWalker\\.nuget\\packages\\azure.extensions.aspnetcore.configuration.secrets\\1.2.1\\azure.extensions.aspnetcore.configuration.secrets.1.2.1.nupkg.sha512",
     "C:\\Users\\GaryWalker\\.nuget\\packages\\azure.identity\\1.9.0-beta.2\\azure.identity.1.9.0-beta.2.nupkg.sha512",
+    "C:\\Users\\GaryWalker\\.nuget\\packages\\azure.messaging.eventgrid\\4.7.0\\azure.messaging.eventgrid.4.7.0.nupkg.sha512",
     "C:\\Users\\GaryWalker\\.nuget\\packages\\azure.security.keyvault.certificates\\4.1.0\\azure.security.keyvault.certificates.4.1.0.nupkg.sha512",
-    "C:\\Users\\GaryWalker\\.nuget\\packages\\azure.security.keyvault.secrets\\4.1.0\\azure.security.keyvault.secrets.4.1.0.nupkg.sha512",
+    "C:\\Users\\GaryWalker\\.nuget\\packages\\azure.security.keyvault.secrets\\4.3.0\\azure.security.keyvault.secrets.4.3.0.nupkg.sha512",
     "C:\\Users\\GaryWalker\\.nuget\\packages\\microsoft.applicationinsights\\2.21.0\\microsoft.applicationinsights.2.21.0.nupkg.sha512",
     "C:\\Users\\GaryWalker\\.nuget\\packages\\microsoft.applicationinsights.aspnetcore\\2.21.0\\microsoft.applicationinsights.aspnetcore.2.21.0.nupkg.sha512",
     "C:\\Users\\GaryWalker\\.nuget\\packages\\microsoft.applicationinsights.dependencycollector\\2.21.0\\microsoft.applicationinsights.dependencycollector.2.21.0.nupkg.sha512",
@@ -30,13 +32,15 @@
     "C:\\Users\\GaryWalker\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.1.1\\microsoft.aspnetcore.http.features.2.1.1.nupkg.sha512",
     "C:\\Users\\GaryWalker\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.3\\microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
     "C:\\Users\\GaryWalker\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.1.1\\microsoft.aspnetcore.webutilities.2.1.1.nupkg.sha512",
+    "C:\\Users\\GaryWalker\\.nuget\\packages\\microsoft.azure.appconfiguration.aspnetcore\\6.1.0\\microsoft.azure.appconfiguration.aspnetcore.6.1.0.nupkg.sha512",
     "C:\\Users\\GaryWalker\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\GaryWalker\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\GaryWalker\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\GaryWalker\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\GaryWalker\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
-    "C:\\Users\\GaryWalker\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.0\\microsoft.extensions.configuration.3.1.0.nupkg.sha512",
+    "C:\\Users\\GaryWalker\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.18\\microsoft.extensions.configuration.3.1.18.nupkg.sha512",
     "C:\\Users\\GaryWalker\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\GaryWalker\\.nuget\\packages\\microsoft.extensions.configuration.azureappconfiguration\\6.1.0\\microsoft.extensions.configuration.azureappconfiguration.6.1.0.nupkg.sha512",
     "C:\\Users\\GaryWalker\\.nuget\\packages\\microsoft.extensions.configuration.binder\\7.0.0\\microsoft.extensions.configuration.binder.7.0.0.nupkg.sha512",
     "C:\\Users\\GaryWalker\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\2.1.1\\microsoft.extensions.configuration.environmentvariables.2.1.1.nupkg.sha512",
     "C:\\Users\\GaryWalker\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\3.1.0\\microsoft.extensions.configuration.fileextensions.3.1.0.nupkg.sha512",
@@ -108,7 +112,22 @@
     "C:\\Users\\GaryWalker\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\GaryWalker\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
     "C:\\Users\\GaryWalker\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\GaryWalker\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+    "C:\\Users\\GaryWalker\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
+    "C:\\Users\\GaryWalker\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.16\\microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\GaryWalker\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.16\\microsoft.windowsdesktop.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\GaryWalker\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.16\\microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\GaryWalker\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.16\\microsoft.netcore.app.host.win-x64.7.0.16.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Azure.Identity' 1.9.0-beta.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-5mfx-4wcx-rv27",
+      "libraryId": "Azure.Identity",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

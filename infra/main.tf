@@ -25,7 +25,17 @@ resource "azurerm_log_analytics_workspace" "log" {
   name                = "log-${local.resource_token}"
   location            = var.location
   resource_group_name = azurerm_resource_group.rg.name
+  sku                 = "PerGB2018"
+  retention_in_days   = 30
   tags                = local.tags
+}
+
+resource "azurerm_application_insights" "appinsights" {
+  name                = "tf-test-appinsights"
+  location            = var.location
+  resource_group_name = azurerm_resource_group.rg.name
+  workspace_id        = azurerm_log_analytics_workspace.log.id
+  application_type    = "web"
 }
 
 resource "azurerm_container_app_environment" "cae" {
@@ -45,29 +55,19 @@ resource "azurerm_container_registry" "acr" {
 }
 
 module "container_app_api" {
-  source              = "./modules/containerappapi"
-  environment         = var.environment_name
-  resource_group_name = azurerm_resource_group.rg.name
-  containerapp_env_id = azurerm_container_app_environment.cae.id
-  containerapp_env_url= azurerm_container_app_environment.cae.default_domain
-  resource_token      = local.resource_token
-  registry_name       = azurerm_container_registry.acr.name
-  default_tags        = local.tags
-  location            = var.location
-  image_name = var.api_image
-}
-
-module "container_app_otherapi" {
-  source              = "./modules/containerappotherapi"
-  environment         = var.environment_name
-  resource_group_name = azurerm_resource_group.rg.name
-  containerapp_env_id = azurerm_container_app_environment.cae.id
-  resource_token      = local.resource_token
-  registry_name       = azurerm_container_registry.acr.name
-  default_tags        = local.tags
-  location            = var.location
-  image_name = var.otherapi_image
-  api_sp_id = module.container_app_api.API_SERVICE_PRINCIPLE
-  api_sp_client_id= module.container_app_api.API_SERVICE_PRINICIPLE_CLIENT_ID
-  api_uri = module.container_app_api.API_URL
+  source               = "./modules/containerappapi"
+  service_name         = "keyvault-tf"
+  environment          = var.environment_name
+  resource_group_name  = azurerm_resource_group.rg.name
+  containerapp_env_id  = azurerm_container_app_environment.cae.id
+  containerapp_env_url = azurerm_container_app_environment.cae.default_domain
+  resource_token       = local.resource_token
+  registry_name        = azurerm_container_registry.acr.name
+  default_tags         = local.tags
+  location             = var.location
+  image_name           = var.api_image
+  latest_commit_id     = var.latest_commit_id
+  blue_commit_id       = var.blue_commit_id
+  green_commit_id      = var.green_commit_id
+  production_label     = var.production_label
 }

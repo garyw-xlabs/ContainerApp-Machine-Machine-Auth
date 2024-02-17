@@ -4,7 +4,7 @@ metadata:
 infra:
   provider: terraform
 services:
-  api-tf:
+  keyvault-tf:
     project: ./scr/Api/Api
     docker:
       path: ./Dockerfile
@@ -13,12 +13,7 @@ services:
       project: scr/Api/Api/
     language: dotnet
     host: containerapp
-  otherapi-tf:
-    project: ./scr/OtherApi/OtherApi    
-    docker:
-      path: ./Dockerfile
-      context: ../
-      web:
-      project: scr/OtherApi/OtherApi/
-    language: dotnet
-    host: containerapp
+hooks:
+  preprovision: # Pull environment variable inline from local device and set in .env file
+    shell: sh
+    run: ./hooks/set-params.sh

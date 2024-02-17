@@ -1,3 +1,6 @@
+variable "service_name" {
+  type = string
+}
 variable "environment" {
   type = string
 }
@@ -29,3 +32,19 @@ variable "image_name" {
   type = string
 }
 
+variable "latest_commit_id" {
+  type = string
+}
+
+variable "blue_commit_id" {
+  type    = string
+  default = ""
+}
+variable "green_commit_id" {
+  type    = string
+  default = ""
+}
+variable "production_label" {
+  type    = string
+  default = "blue"
+}

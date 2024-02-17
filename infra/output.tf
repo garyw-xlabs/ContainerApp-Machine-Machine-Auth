@@ -15,12 +15,12 @@ output "AZURE_TENANT_ID" {
   value = data.azurerm_client_config.current.tenant_id
 }
 
-output AZURE_CONTAINER_REGISTRY_ENDPOINT {
+output "AZURE_CONTAINER_REGISTRY_ENDPOINT" {
   value = azurerm_container_registry.acr.login_server
 }
-output AZURE_CONTAINER_REGISTRY_NAME {
+output "AZURE_CONTAINER_REGISTRY_NAME" {
   value = azurerm_container_registry.acr.name
 }
-output API_URL {
+output "API_URL" {
   value = module.container_app_api.API_URL
 }

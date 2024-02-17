@@ -74,3 +74,12 @@ For `appservice`, the following host configuration options are often modified:
 - Exposed port from the running container (if running a web service)
 - Allowed origins for CORS (Cross-Origin Resource Sharing) protection (if running a web service backend with a frontend)
 - The run command that starts up your service
+
+
+
+
+### Requirements
+if you are running on windows you will need to usea bash shell and install jq
+```bash
+winget install jqlang.jq.
+```

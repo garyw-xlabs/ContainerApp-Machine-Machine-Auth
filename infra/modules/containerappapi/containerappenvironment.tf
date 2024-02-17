@@ -6,112 +6,70 @@ resource "azurerm_role_assignment" "containerapp" {
 
 resource "azurerm_user_assigned_identity" "acr_reader" {
   location            = var.location
-  name                = "app-acr-reader"
+  name                = "id-ca-${var.resource_token}"
   resource_group_name = var.resource_group_name
 }
-
 
 resource "azurerm_container_app" "app" {
   name = "ca-${var.resource_token}"
 
   container_app_environment_id = var.containerapp_env_id
   resource_group_name          = var.resource_group_name
-  revision_mode                = "Single"
-  tags                         = merge(tomap({ "azd-service-name" = "api-tf" }), tomap({ "azd-env-name" : var.environment }))
-  depends_on                   = [azurerm_role_assignment.containerapp, azurerm_user_assigned_identity.acr_reader]
-
-
+  revision_mode                = "Multiple"
+  tags = merge(tomap({ "azd-service-name" = var.service_name }),
+    tomap({ "azd-env-name" : var.environment }),
+    tomap({ "blueCommitId" = var.blue_commit_id }),
+    tomap({ "greenCommitId" = var.green_commit_id }),
+    tomap({ "latestCommitId" = local.current_commit_id }),
+  tomap({ "productionLabel" = var.production_label }))
+  depends_on = [azurerm_role_assignment.containerapp, azurerm_user_assigned_identity.acr_reader]
 
   identity {
     type         = "UserAssigned"
     identity_ids = [azurerm_user_assigned_identity.acr_reader.id]
   }
-  secret {
-    name  = "registry-password"
-    value = data.azurerm_container_registry.acr.admin_password
-  }
 
   registry {
     server   = data.azurerm_container_registry.acr.login_server
     identity = azurerm_user_assigned_identity.acr_reader.id
-
   }
   template {
+    revision_suffix = var.latest_commit_id
     container {
       name   = "ca-${var.resource_token}"
-      image  = var.image_name == "" ? "nginx:latest" : var.image_name
+      image  = "mcr.microsoft.com/azuredocs/containerapps-helloworld:latest"
       cpu    = 0.25
       memory = "0.5Gi"
+
+      env {
+        name  = "AZURE_CLIENT_ID"
+        value = azurerm_user_assigned_identity.acr_reader.client_id
+      }
+      env {
+        name  = "REVISION_COMMIT_ID"
+        value = local.current_commit_id
+      }
     }
     min_replicas = 1
     max_replicas = 1
   }
   ingress {
-
     external_enabled = true
     target_port      = 80
+
     traffic_weight {
-      percentage      = 100
-      latest_revision = true
+      revision_suffix = var.blue_commit_id
+      label           = "blue"
+      percentage      = var.production_label == "blue" ? 100 : 0
+    }
+
+    dynamic "traffic_weight" {
+      for_each = var.green_commit_id != "" ? [1] : []
+      content {
+        revision_suffix = var.green_commit_id
+        label           = "green"
+        percentage      = var.production_label == "green" ? 100 : 0
+      }
     }
   }
-  lifecycle {
-    ignore_changes = [
-      secret,
-      template.0.container.0.env,
-      template.0.container.0.image
-    ]
-  }
-
-}
-
-resource "azuread_application" "container_app_application" {
-  depends_on      = [azurerm_container_app.app]
-  display_name    = "API AUTH ${var.resource_token}"
-  identifier_uris = ["api://${var.resource_token}"]
-  web {
-    homepage_url  = "https://ca-${var.resource_token}.${var.containerapp_env_url}"
-    redirect_uris = ["https://ca-${var.resource_token}.${var.containerapp_env_url}/.auth/login/aad/callback"]
-
-    implicit_grant {
-      access_token_issuance_enabled = true
-    }
-  }
-}
-
-resource "azuread_service_principal" "container_app_service_principle" {
-  application_id               = azuread_application.container_app_application.application_id
-  app_role_assignment_required = true
-}
-
-
-
-resource "azapi_resource" "containerauth" {
-  type      = "Microsoft.App/containerApps/authConfigs@2022-11-01-preview"
-  name      = "current"
-  parent_id = azurerm_container_app.app.id
-  body = jsonencode({
-    properties = {
-      globalValidation = {
-        excludedPaths               = []
-        unauthenticatedClientAction = "Return401"
-      }
-      platform = {
-        enabled = true
-      }
-      httpSettings = {
-        requireHttps = true
-      }
-      identityProviders = {
-        azureActiveDirectory = {
-          enabled = true
-
-          registration = {
-            clientId = azuread_application.container_app_application.application_id
-          }
-        }
-
-      }
-    }
-  })
 }
