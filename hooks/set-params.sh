@@ -16,7 +16,7 @@ echo $tags
 cur_prod_label=`echo ${tags} | jq -r '.productionLabel'`
 
 revisions=$(az containerapp revision list -g rg-bluegreen5-test -n ca-yzrjnme3mmrjz -o json| tr -d '\r\n')
-initialrevision=`echo ${revision[0]}  | jq -r '.name'`
+initialrevision=`echo ${revisions[0]}  | jq -r '.name'`
 echo $initialrevision
 initialrevisionParts=$(echo $initialrevision | tr "--" "\n")
 echo $initialrevisionParts
