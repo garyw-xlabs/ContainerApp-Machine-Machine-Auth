@@ -1,21 +1,5 @@
 #!/bin/bash
 
-#commit_id=1
-#echo "commit_id=$comit_id"
-#azd env set commit_id $commit_id
-
-#blue_commit_id=1
-#echo "commit_id=$blue_commit_id"
-#azd env set blue_commit_id $blue_commit_id
-
-#green_commit_id=4
-#echo "commit_id=$green_commit_id"
-#azd env set green_commit_id $green_commit_id
-
-#cur_prod_label="blue"
-#echo "commit_id=$cur_prod_label"
-#azd env set cur_prod_label $cur_prod_label
-
 # get the current release commit id
 commit_id=$(git rev-parse --short $GITHUB_SHA)
 echo "Commit ID: $commit_id"
@@ -31,6 +15,12 @@ echo $tags
 # get the current production label
 cur_prod_label=`echo ${tags} | jq -r '.productionLabel'`
 
+revisions=$(az containerapp revision list -g rg-bluegreen5-test -n ca-yzrjnme3mmrjz -o json| tr -d '\r\n')
+initialrevision=`echo ${revision[0]}  | jq -r '.name'`
+initialrevisionParts = $(echo $initialrevision | tr "--" "\n")
+initialrevisionSubparts = $(echo $initialrevisionParts[1] | tr "-" "\n")
+initialrevisionName = $(echo $initialrevisionSubparts[0])
+echo "initialrevision name: $initialrevisionName"
 echo "label: $cur_prod_label"
 if $cur_prod_label =="";
 then
@@ -49,6 +39,13 @@ echo "cur_prod_label=$cur_prod_label"
 # # get the current green commit id
  cur_green_commit_id=$(echo $tags | jq -r '.greenCommitId')
  echo "Current Green Commit ID: $cur_green_commit_id"
+
+
+ if [ $cur_green_commit_id = $cur_blue_commit_id ] && [$cur_blue_commit_id != $initialrevisionName ];
+ then
+    $cur_blue_commit_id = $initialrevisionName
+     echo "Updated Blue Commit ID: $cur_blue_commit_id"
+ fi
 
 # # Handle the case when the workflow is re-run for the same commit id that is already in production
 # # We do not want to deploy the same commit id again into another label
