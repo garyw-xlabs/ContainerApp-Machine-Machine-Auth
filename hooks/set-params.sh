@@ -17,9 +17,12 @@ cur_prod_label=`echo ${tags} | jq -r '.productionLabel'`
 
 revisions=$(az containerapp revision list -g rg-bluegreen5-test -n ca-yzrjnme3mmrjz -o json| tr -d '\r\n')
 initialrevision=`echo ${revision[0]}  | jq -r '.name'`
-initialrevisionParts = $(echo $initialrevision | tr "--" "\n")
-initialrevisionSubparts = $(echo $initialrevisionParts[1] | tr "-" "\n")
-initialrevisionName = $(echo $initialrevisionSubparts[0])
+echo $initialrevision
+initialrevisionParts=$(echo $initialrevision | tr "--" "\n")
+echo $initialrevisionParts
+initialrevisionSubparts=`$(echo $initialrevisionParts[1] | tr "-" "\n")`
+echo $initialrevisionSubparts
+initialrevisionName=`echo $initialrevisionSubparts[0]`
 echo "initialrevision name: $initialrevisionName"
 echo "label: $cur_prod_label"
 if $cur_prod_label =="";
